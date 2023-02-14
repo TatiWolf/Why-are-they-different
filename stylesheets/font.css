@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Kyiv-Regular';
+    src: local('./font/'),
+    url('../font/KyivTypeSans-VarGX.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Kyiv-Medium';
+    src: local('./font/'),
+    url('../font/KyivTypeSans-VarGX.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
