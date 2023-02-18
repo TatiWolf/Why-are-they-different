@@ -1,0 +1,74 @@
+html {
+    background-color: #151515;
+}
+
+.section {
+    padding-left: 9.03vw;
+    padding-right: 9.03vw;
+    max-width: 1920px;
+    margin: auto;
+    position: relative;
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+/*header slider*/
+body {
+    min-height: 100vh;
+}
+
+.mask {
+    height: 7.36vw;
+    position: relative;
+    overflow: hidden;
+    margin: 1.74vw 0 0 0;
+}
+
+.mask span {
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    top: 6.94vw;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: no-repeat;
+}
+
+.mask span[data-show] {
+    transform: translateY(-100%);
+    transition: .5s transform ease-in-out;
+}
+
+.mask span[data-up] {
+    transform: translateY(-200%);
+    transition: .5s transform ease-in-out;
+}
+
+.mask span:nth-child(1) {
+    background-image: linear-gradient(45deg, #5CF935 50%, #33FF00);
+}
+
+.mask span:nth-child(2) {
+    background-image: linear-gradient(45deg, #1C5BFF 50%, #0085FF);
+}
+
+.mask span:nth-child(3) {
+    background-image: linear-gradient(45deg, #DE0085 50%, #FF31AD);
+}
+
+.mask span:nth-child(4) {
+    background-image: linear-gradient(45deg, #DE0000 50%, #FF0000);
+}
+.mask span:nth-child(5) {
+    background-image: linear-gradient(45deg, #EAEE1C 50%, #FAFF00);
+}
+.mask span:nth-child(6) {
+    background-image:linear-gradient(90deg,#DE0000,orange,#FAFF00,#5CF935,#1C5BFF,#DE0085);
+}
