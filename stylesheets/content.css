@@ -83,11 +83,12 @@ body {
 .head-img-bottom{
     padding: 7.64vw 0 0 0;
     width: 100vw;
-    height: 43.75vw;
+
 }
 
 .head-img{
     position: absolute;
     top: 0;
-    right: 0
+    right: 0;
+    max-width: 31.25vw;
 }

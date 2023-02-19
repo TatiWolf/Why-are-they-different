@@ -7,7 +7,6 @@
 }
 
 h2 {
-    /*width: 68.06vw;*/
     font-size: clamp(4rem, 2.9957rem + 5.5604vw, 8rem);
     font-family: Kyiv-Medium;
     line-height: 1.05;
