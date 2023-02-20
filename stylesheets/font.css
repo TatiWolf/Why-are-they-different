@@ -6,9 +6,24 @@
     font-style: normal;
 }
 
-h2 {
+h1 {
     font-size: clamp(4rem, 2.9957rem + 5.5604vw, 8rem);
     font-family: Kyiv-Medium;
     line-height: 1.05;
     color: #FFFFFF;
+}
+
+h2{
+    font-size: clamp(2.5rem, 2.1234rem + 2.0851vw, 4rem);
+    font-family: Kyiv-Medium;
+    line-height: 1.05;
+    color: #FFFFFF;
+}
+
+p{
+    font-size: clamp(1.5rem, 1.3117rem + 1.0426vw, 2.25rem);
+    font-family: Kyiv-Medium;
+    line-height: 1.05;
+    color: #FFFFFF;
+    margin: 3.47vw 0 0 0;
 }

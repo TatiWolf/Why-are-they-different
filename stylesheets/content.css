@@ -90,5 +90,72 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    max-width: 31.25vw;
+    width: 31.25vw;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .head-img{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 4.31vw;
+    }
+    .chlorophyll-block{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.chlorophyll-block{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+}
+
+.chlorophyll-text{
+    margin: 0 0 0 8.68vw;
+    max-width: 39.93vw;
+    min-width: 23.13vw;
+}
+
+.chlorophyll-img{
+    max-width: 100%;
+}
+
+.flower1-img{
+    right: 0;
+    position: absolute;
+}
+
+
+.green{
+    color: #5CF935;
+}
+
+.red{
+    color: #DE0000;
+}
+
+.carotenoids-block{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    align-items: end;
+}
+
+.carotenoids-title{
+    display: flex;
+    flex-direction: column;
+}
+
+.carotenoids-decr{
+    margin: 0 0 0 8.68vw;
+    max-width: 37.01vw;
+    min-width: 21.46vw;
+
+}
+
+.carotenoids-img{
+    left: 0;
+    position: absolute;
 }
