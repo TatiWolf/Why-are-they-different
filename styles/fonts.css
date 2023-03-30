@@ -1,0 +1,132 @@
+@font-face {
+    font-family: "KyivTypeSans-VarGX";
+    src: url("../fonts/KyivTypeSans-VarGX.ttf") format("truetype");
+}
+
+h1, h2, h3, h4, h5, p, span, a {
+    color: #ffffff;
+    font-family: "KyivTypeSans-VarGX", serif, sans-serif;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.link {
+    font-size: 48px;
+    line-height: 57px;
+    font-weight: 350;
+    margin-left: 5px;
+}
+
+.color-green {
+    color: #5CF935;
+}
+
+.color-red {
+    color: #DE0000;
+}
+
+.color-blue {
+    color: #1C5BFF;
+}
+
+.title-1 {
+    font-weight: 500;
+    font-size: 170px;
+    line-height: 205px;
+}
+
+.title-2 {
+    font-weight: 500;
+    font-size: 75px;
+    line-height: 102px;
+     margin-bottom: 15px;
+}
+
+.paragraph {
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 56px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.head-text {
+    font-weight: 500;
+    font-size: 120px;
+    line-height: 174px;
+}
+
+.head-animation-text {
+    line-height: 140px;
+    font-size: 130px;
+}
+
+.logo-footer {
+    /*position: absolute;*/
+    right: 20px;
+}
+
+@media only screen and (max-width: 1500px) {
+
+}
+@media only screen and (max-width: 1150px) {
+    .title-1 {
+        font-size: 120px;
+        line-height: 160px;
+    }
+
+    .title-2 {
+        font-size: 41px;
+        line-height: 43px;
+    }
+
+    .paragraph {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .link {
+        font-size: 30px;
+        line-height: 40px;
+        margin-left: 5px;
+    }
+    .head-text {
+        font-size: 120px;
+        line-height: 174px;
+    }
+    .head-animation-text {
+        font-size: 90px;
+        line-height: 72px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .head-text {
+        font-size: 80px;
+        line-height: 134px;
+    }
+    .logo-footer {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .head-animation-text {
+        line-height: 49px;
+        font-size: 56px;
+    }
+
+}
+@media only screen and (max-width: 420px) {
+    .head-animation-text {
+        line-height: 35px;
+        font-size: 34px;
+    }
+    .link {
+
+    }
+}

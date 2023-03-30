@@ -1,0 +1,483 @@
+@import "circle.css";
+@import "fonts.css";
+@import "animation.css";
+@import "animation-title.css";
+
+body {
+    background-color: #151515;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    overflow: hidden;
+}
+
+.img-header {
+    width: 45%;
+}
+
+.section {
+    padding-left: 60px;
+    padding-right: 60px;
+    max-width: 1920px;
+    margin: auto;
+    position: relative;
+}
+
+.section-img {
+    max-width: 1920px;
+    margin: auto;
+    position: relative;
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.title-content {
+    padding: 0 0 75px 0;
+}
+
+.flex-chlorophyll-img {
+    position: relative;
+    max-width: 680px;
+    width: 100%;
+}
+
+.flex-chlorophyll {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: -60px;
+}
+
+
+.flex-carotenoids {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 200px;
+}
+
+.flex-chlorophyll-text-flower-left {
+    position: absolute;
+    left: -20px;
+    bottom: -700px;
+}
+
+.flex-chlorophyll-text-butterfly-left {
+    position: absolute;
+    left: 592px;
+    bottom: -300px;
+    width: 17%;
+}
+
+.flex-chlorophyll-text {
+    max-width: 760px;
+    margin-left: 50px;
+    margin-top: 160px;
+}
+
+.chlorophyll-img {
+    display: block;
+    width: 100%;
+}
+
+.img-wrap-flowers {
+    width: 100%;
+    position: relative;
+}
+
+.img-header-flowers {
+    max-width: 100%;
+}
+
+.flex-chlorophyll-text-flower {
+    position: absolute;
+    right: -20px;
+    margin: 125px 0 220px 0;
+    bottom: -500px;
+    width: 43%;
+}
+
+.img-header {
+    position: absolute;
+    right: -14px;
+    top: -6px;
+}
+
+.butterfly-chlorophyll {
+    width: 86%;
+}
+
+.title-carotinoid {
+    /*margin-top: -100px;*/
+}
+
+.flex-img-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-img-wrap-formula {
+    padding-top: 35vh;
+    width: 57%;
+}
+
+.butterfly-1 {
+    opacity: 0;
+}
+
+.butterfly-1-active {
+    position: absolute;
+    top: 36vw;
+    right: 20vw;
+    width: 10%;
+    animation: opacity 0.6s;
+}
+
+
+.butterfly-2 {
+    position: absolute;
+    top: 50px;
+    right: 600px;
+    width: 14%;
+    opacity: 0;
+}
+
+.butterfly-2-active {
+    position: absolute;
+    top: 50px;
+    right: 600px;
+    width: 14%;
+    animation: opacity 0.6s;
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.yellow-flowers {
+    position: absolute;
+    top: -155px;
+    right: -60px;
+    width: 45%;
+    animation: scale-down 0.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both ;
+    cursor: pointer;
+    animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(-2deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-2deg);
+
+    }
+}
+
+.yellow-flowers:active {
+    animation: scale-down 0.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+
+}
+
+.yellow-flowers:hover {
+    animation: scale-up 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.green-circle {
+    position: absolute;
+    max-width: 680px;
+    width: 100%;
+    top: -26px;
+    left: -7px;
+    animation: pulse 2s linear infinite;
+}
+
+.pulse {
+    animation: pulse 2s linear infinite;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 0.8;
+    }
+    50% {
+        opacity: 0.6;
+    }
+    75% {
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.flex-anto {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.flex-anto-box {
+    max-width: 770px;
+    margin-top: 200px;
+}
+
+.m-w-950 {
+    max-width: 950px;
+}
+
+.flex-antitoxins {
+    display: flex;
+    justify-content: center
+}
+
+.red-flowers {
+    position: relative;
+    left: -60px;
+    width: 34%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+.mobile {
+    display: none;
+}
+.footer-link {
+    margin-left: 200px
+}
+@media only screen and (max-width: 1500px) {
+    .footer-link {
+        margin-left: 50px
+    }
+
+@media only screen and (max-width: 1300px) {
+    .title-1 {
+        font-size: 100px;
+    }
+
+    .mask span:nth-child(1) {
+        top: 204px;
+        left: 240px;
+    }
+
+    .mask span {
+        top: 204px !important;
+        left: 240px;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+
+    .flex-circle {
+        margin-top: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .flex-circle-element {
+        margin: 0 0 15px 0;
+    }
+
+    .flex-antitoxins {
+        display: block;
+    }
+
+    .mask span:nth-child(1) {
+        top: 160px;
+        left: 190px;
+    }
+
+    .mask span {
+        top: 160px !important;
+        left: 190px;
+    }
+
+    .title-1 {
+        font-size: 80px;
+    }
+
+    .mask {
+        height: 150px;
+    }
+
+    .chlorophyll-img {
+        margin-top: -80px;
+    }
+
+    .flex-chlorophyll-text-flower {
+        width: 59vw;
+    }
+
+    .flex-chlorophyll-text-flower-left {
+        bottom: -400px;
+        width: 45%;
+    }
+
+    .flex-chlorophyll-text-butterfly-left {
+        left: 32vw;
+        bottom: -50px;
+    }
+
+}
+
+@media only screen and  (max-width: 750px) {
+    .mask {
+        height: 100px;
+    }
+    .mask span:nth-child(1) {
+        top: 90px;
+        left: 140px;
+    }
+
+    .mask span {
+        top: 90px !important;
+        left: 140px;
+    }
+
+    .title-1 {
+        font-size: 60px;
+        line-height: 90px;
+    }
+
+    .section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .flex-chlorophyll {
+        display: block;
+    }
+
+    .flex-chlorophyll-text {
+        margin-top: 80px;
+    }
+
+    .flex-carotenoids {
+        display: block;
+        margin-top: 50px;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
+    }
+    .footer-link {
+    margin-left: 0;
+    }
+}
+
+    .img-mobile-block {
+        margin-top: 60px;
+        margin-right: -20px;
+    }
+
+    .img-mobile {
+        width: 100%;
+        margin-top: -150px;
+    }
+
+    .title-carotinoid {
+        margin-top: 0;
+    }
+
+    .chlorophyll-img {
+        margin-top: 50px;
+    }
+
+    .flex-img-wrap {
+        margin-top: 0;
+    }
+
+
+    .circle-container {
+        margin: 0 0;
+    }
+
+    .flex-anto-box {
+        margin-top: 0;
+    }
+    .flex-circle {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .title-1 {
+        font-size: 42px;
+        line-height: 50px;
+    }
+    .title-1 {
+        font-size: 37px;
+    }
+
+    .paragraph {
+        font-size: 22px;
+    }
+
+    .mask {
+        height: 75px;
+    }
+    .mask span:nth-child(1) {
+        top: 50px;
+        left: 88px;
+    }
+
+    .mask span {
+        top: 50px !important;
+        left: 88px;
+    }
+
+    .circle {
+        r: 20;
+    }
+    .link {
+        font-size: 12px;
+    }
+
+    .flex-circle-element-svg {
+        margin: auto;
+    }
+
+    .link {
+        font-size: 18px;
+    }
+    .flex-chlorophyll-text {
+        margin: 0;
+    }
+
+    .mask {
+        height: 50px;
+    }
+}

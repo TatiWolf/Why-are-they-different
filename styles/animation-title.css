@@ -1,0 +1,61 @@
+.mask {
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    /*margin: 3.74vw 0 0 0;*/
+    z-index: 0;
+}
+
+.mask span {
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    /*top: 10.36vw;*/
+    background-size: 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: no-repeat;
+    /*opacity: 0;*/
+    top: 204px;
+    left: 400px;
+}
+
+.mask span[data-show] {
+    transform: translateY(-100%);
+    transition: .5s transform ease-in-out;
+    opacity: 1;
+}
+
+.mask span[data-up] {
+    transform: translateY(-300%);
+    transition: .5s transform ease-in-out;
+
+}
+
+.mask span:nth-child(1) {
+    background-image: linear-gradient(45deg, #5CF935 50%, #33FF00);
+    top: 204px;
+    left: 400px;
+}
+
+.mask span:nth-child(2) {
+    background-image: linear-gradient(45deg, #1C5BFF 50%, #0085FF);
+}
+
+.mask span:nth-child(3) {
+    background-image: linear-gradient(45deg, #DE0085 50%, #FF31AD);
+}
+
+.mask span:nth-child(4) {
+    background-image: linear-gradient(45deg, #DE0000 50%, #FF0000);
+}
+
+.mask span:nth-child(5) {
+    background-image: linear-gradient(45deg, #EAEE1C 50%, #FAFF00);
+}
+
+.mask span:nth-child(6) {
+    background-image: linear-gradient(90deg, #DE0000, orange, #FAFF00, #5CF935, #1C5BFF, #DE0085);
+}
+

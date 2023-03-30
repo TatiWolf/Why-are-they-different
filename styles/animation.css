@@ -1,0 +1,15 @@
+.error {
+
+    animation: 0.2s tremor ease-out infinite;
+}
+
+@keyframes tremor {
+    0% {
+        left: -1px;
+        transform: translateX(-4%);
+    }
+    100% {
+        left: 1px;
+        transform: translateX(4%);
+    }
+}

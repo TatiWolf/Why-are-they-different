@@ -1,0 +1,95 @@
+.circle {
+    stroke-width: 0.1875em;
+}
+
+.flex-circle-element-svg {
+    margin: 0 25px 0 0;
+    cursor: pointer;
+}
+
+.flex-circle-element-svg:hover {
+    animation: scale-up 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.flex-circle-element-svg:active {
+    animation: scale-down 0.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+
+@keyframes opacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+
+}
+
+@keyframes scale-up {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(1);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1.1);
+    }
+}
+
+@keyframes scale-down {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(1.1);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.red {
+    fill: #DE0000;
+}
+
+.green {
+    fill: #5CF935;
+}
+
+.yellow {
+    fill: #FFC700;
+}
+
+.blue {
+    fill: #1C5BFF;
+}
+
+.mailto {
+    stroke: #ffffff;
+    stroke-width: 5px;
+}
+
+
+
+.flex-circle {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding:  0 55px;
+}
+
+.flex-circle-element {
+    margin: 0 0 15px 50px;
+}
+
+.flex-circle-line {
+    background-color: #ffffff;
+    width: 100%;
+    height: 3px;
+}
+
+.circle-container {
+    margin: 80px 0 20px 0;
+}
